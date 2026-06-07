@@ -48,12 +48,6 @@ Students can interact with the tutor entirely through voice.
 * Natural AI voice responses
 * Audio playback directly in Streamlit
 
-#### Voice Workflow
-
-Voice Input
-
-Whisper Transcription --> LangGraph RAG Pipeline  --> Answer Generation  --> Edge TTS Synthesis --> Spoken Response
-
 ### Adaptive MCQ Quiz Generator
 
 Generate topic-specific DBMS quizzes instantly.
@@ -89,44 +83,22 @@ This improves transparency and helps students verify information.
 
 ### Question Answering Pipeline
 
-User Query
-
-Query Classifier --> FAISS Retriever --> Context Extraction --> Reasoning Agent  --> Answer Generator --> Final Response
+User Query --> Query Classifier --> FAISS Retriever --> Context Extraction --> Reasoning Agent  --> Answer Generator --> Final Response
 
 ### Concept Graph Pipeline
 
-Question
-
-Answer Generation --> Relationship Extraction --> Concept Nodes & Edges  --> PyVis Visualization
+Question --> Answer Generation --> Relationship Extraction --> Concept Nodes & Edges  --> PyVis Visualization
 
 ### Voice Assistant Pipeline
 
-User Speech
-
-Whisper STT --> Query Processing --> RAG Retrieval --> LLM Reasoning --> Answer Generation --> Edge TTS  --> Audio Response
+User Speech --> Whisper STT --> Query Processing --> RAG Retrieval --> LLM Reasoning --> Answer Generation --> Edge TTS  --> Audio Response
 
 ### Quiz Generation Pipeline
 
-Topic Selection
-
-Quiz Generator Agent --> Groq LLaMA 3.1  --> JSON Validation --> Quiz Renderer  --> Evaluation Engine  --> Score Calculation
+Topic Selection --> Quiz Generator Agent --> Groq LLaMA 3.1  --> JSON Validation --> Quiz Renderer  --> Evaluation Engine  --> Score Calculation
 
 ### LangGraph Workflow
 <img width="291" height="703" alt="Screenshot (2426)" src="https://github.com/user-attachments/assets/2db480fd-d66a-4fd4-8cb3-c29a2100f338" />
-
-
-Final Output
-
-## Concept Graph
-
-For questions like:
-- Definitions
-- Comparisons
-- Relationships  
-
-The system generates a **knowledge graph**:
-- Nodes = DBMS concepts  
-- Edges = relationships  
 
 ## Tech Stack
 
@@ -254,20 +226,26 @@ Converted into embeddings for retrieval
 <img width="1920" height="896" alt="Screenshot (2413)" src="https://github.com/user-attachments/assets/aa19025b-63b4-4c0e-8f83-a0660f62ff44" />
 <img width="1920" height="900" alt="Screenshot (2414)" src="https://github.com/user-attachments/assets/2b15f27b-29b3-4a3c-86da-cab52aef5638" />
 
-<img width="1920" height="896" alt="Screenshot (2416)" src="https://github.com/user-attachments/assets/2e5c1bac-bd23-4424-9f64-35dcc1e9958b" />
-<img width="1920" height="900" alt="Screenshot (2415)" src="https://github.com/user-attachments/assets/46d12461-3027-4836-9a67-313a9695fabb" />
 
-<img width="1920" height="1080" alt="Screenshot (2425)" src="https://github.com/user-attachments/assets/750cfb85-4209-4b11-90f2-eead070959d2" />
-<img width="1920" height="901" alt="Screenshot (2424)" src="https://github.com/user-attachments/assets/d4505a16-ce51-4786-b004-fb1810905315" />
-<img width="1920" height="909" alt="Screenshot (2423)" src="https://github.com/user-attachments/assets/26aaa6d2-e8a4-4627-bf82-1818d824e0ec" />
-<img width="1920" height="1080" alt="Screenshot (2422)" src="https://github.com/user-attachments/assets/83790bc6-cea5-4343-9fbd-aba5e934c58e" />
-<img width="1920" height="915" alt="Screenshot (2421)" src="https://github.com/user-attachments/assets/76589190-dae1-4a86-9dc2-d48f3ead844c" />
-<img width="1920" height="905" alt="Screenshot (2420)" src="https://github.com/user-attachments/assets/74e266e0-3cc5-421a-b9dc-dca5b9242ea6" />
-<img width="1920" height="1080" alt="Screenshot (2419)" src="https://github.com/user-attachments/assets/13a60490-f6e6-41b3-bb2d-759e933f189a" />
-<img width="1920" height="915" alt="Screenshot (2418)" src="https://github.com/user-attachments/assets/c27416a1-f1c0-47fe-a46f-528025efdc78" />
+<img width="1920" height="900" alt="Screenshot (2415)" src="https://github.com/user-attachments/assets/46d12461-3027-4836-9a67-313a9695fabb" />
+<img width="1920" height="896" alt="Screenshot (2416)" src="https://github.com/user-attachments/assets/2e5c1bac-bd23-4424-9f64-35dcc1e9958b" />
+
+
+
+
+
+
 <img width="1920" height="907" alt="Screenshot (2417)" src="https://github.com/user-attachments/assets/b9cd6a3c-bc18-42eb-b9fe-cb9a2664aa87" />
 
+<img width="1920" height="915" alt="Screenshot (2418)" src="https://github.com/user-attachments/assets/c27416a1-f1c0-47fe-a46f-528025efdc78" />
 
+<img width="1920" height="1080" alt="Screenshot (2419)" src="https://github.com/user-attachments/assets/13a60490-f6e6-41b3-bb2d-759e933f189a" />
+<img width="1920" height="905" alt="Screenshot (2420)" src="https://github.com/user-attachments/assets/74e266e0-3cc5-421a-b9dc-dca5b9242ea6" />
+<img width="1920" height="915" alt="Screenshot (2421)" src="https://github.com/user-attachments/assets/76589190-dae1-4a86-9dc2-d48f3ead844c" />
+<img width="1920" height="1080" alt="Screenshot (2422)" src="https://github.com/user-attachments/assets/83790bc6-cea5-4343-9fbd-aba5e934c58e" />
+<img width="1920" height="909" alt="Screenshot (2423)" src="https://github.com/user-attachments/assets/26aaa6d2-e8a4-4627-bf82-1818d824e0ec" />
+<img width="1920" height="901" alt="Screenshot (2424)" src="https://github.com/user-attachments/assets/d4505a16-ce51-4786-b004-fb1810905315" />
+<img width="1920" height="1080" alt="Screenshot (2425)" src="https://github.com/user-attachments/assets/750cfb85-4209-4b11-90f2-eead070959d2" />
 
 
 
