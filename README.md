@@ -192,8 +192,8 @@ The application is organized into three interactive tabs:
 
 1. Clone repo
 ```bash
-[git clone https://github.com/your-username/dbms-concept-tutor.git
-cd dbms-concept-tutor](https://github.com/Nitya-Pahwa/DBMS-Tutor.git)
+[[git clone https://github.com/your-username/dbms-concept-tutor.git
+cd dbms-concept-tutor](https://github.com/Nitya-Pahwa/DBMS-Tutor.git)](https://github.com/Nitya-Pahwa/Advanced-DBMS-Tutor.git)
 ```
 
 2. Install dependencies
@@ -239,13 +239,14 @@ Converted into embeddings for retrieval
 
 <img width="1920" height="915" alt="Screenshot (2418)" src="https://github.com/user-attachments/assets/c27416a1-f1c0-47fe-a46f-528025efdc78" />
 
-<img width="1920" height="1080" alt="Screenshot (2419)" src="https://github.com/user-attachments/assets/13a60490-f6e6-41b3-bb2d-759e933f189a" />
+
 <img width="1920" height="905" alt="Screenshot (2420)" src="https://github.com/user-attachments/assets/74e266e0-3cc5-421a-b9dc-dca5b9242ea6" />
 <img width="1920" height="915" alt="Screenshot (2421)" src="https://github.com/user-attachments/assets/76589190-dae1-4a86-9dc2-d48f3ead844c" />
-<img width="1920" height="1080" alt="Screenshot (2422)" src="https://github.com/user-attachments/assets/83790bc6-cea5-4343-9fbd-aba5e934c58e" />
-<img width="1920" height="909" alt="Screenshot (2423)" src="https://github.com/user-attachments/assets/26aaa6d2-e8a4-4627-bf82-1818d824e0ec" />
+
+<img width="1920" height="909" alt="Screenshot (2423)" src="https://github.com/user-attachments/assets/8aa2a406-c3da-477a-b490-d93d1bfa7b8a" />
+
 <img width="1920" height="901" alt="Screenshot (2424)" src="https://github.com/user-attachments/assets/d4505a16-ce51-4786-b004-fb1810905315" />
-<img width="1920" height="1080" alt="Screenshot (2425)" src="https://github.com/user-attachments/assets/750cfb85-4209-4b11-90f2-eead070959d2" />
+
 
 
 
